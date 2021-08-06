@@ -20,9 +20,9 @@ const PortfolioTwo = () => {
                                                 <Reveal effect="fadeInUp">  
                               <div className="inner innersquare">
                                 <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/12.jpg">
+                                  <a href="/wchs/img/portfolio/12.jpg">
                                     <img
-                                      src="/img/portfolio/12.jpg"
+                                      src="/wchs/img/portfolio/12.jpg"
                                       alt="2012 Season"
                                     />
                                   </a>
@@ -37,9 +37,9 @@ const PortfolioTwo = () => {
                           <Reveal effect="fadeInUp">  
                               <div className="inner innersquare">
                                 <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/33.jpg">
+                                  <a href="/wchs/img/portfolio/33.jpg">
                                     <img
-                                      src="/img/portfolio/33.jpg"
+                                      src="/wchs/img/portfolio/33.jpg"
                                       alt="2016 Season"
                                     />
                                   </a>
@@ -54,9 +54,9 @@ const PortfolioTwo = () => {
                           <Reveal effect="fadeInUp">  
                               <div className="inner innersquare2">
                                 <div className="entry shane_tm_portfolio_animation_wrap">
-                                  <a href="/img/portfolio/1.jpg">
+                                  <a href="/wchs/img/portfolio/1.jpg">
                                     <img
-                                      src="/img/portfolio/1.jpg"
+                                      src="/wchs/img/portfolio/1.jpg"
                                       alt="2014 Season"
                                     />
                                   </a>
@@ -76,9 +76,9 @@ const PortfolioTwo = () => {
                         <Reveal effect="fadeInUp">  
                             <div className="inner innersquare3">
                               <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/13.jpg">
+                                <a href="/wchs/img/portfolio/13.jpg">
                                   <img
-                                    src="/img/portfolio/13.jpg"
+                                    src="/wchs/img/portfolio/13.jpg"
                                     alt="2017 Season"
                                   />
                                 </a>
@@ -92,9 +92,9 @@ const PortfolioTwo = () => {
                           <Reveal effect="fadeInUp">  
                             <div className="inner innersquare3">
                               <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/2.jpg">
+                                <a href="/wchs/img/portfolio/2.jpg">
                                   <img
-                                    src="/img/portfolio/2.jpg"
+                                    src="/wchs/img/portfolio/2.jpg"
                                     alt="2013 Season"
                                   />
                                 </a>
@@ -106,9 +106,9 @@ const PortfolioTwo = () => {
                             <Reveal effect="fadeInUp">  
                             <div className="inner innersquare3">
                               <div className="entry shane_tm_portfolio_animation_wrap">
-                                <a href="/img/portfolio/14.jpg">
+                                <a href="/wchs/img/portfolio/14.jpg">
                                   <img
-                                    src="/img/portfolio/14.jpg"
+                                    src="/wchs/img/portfolio/14.jpg"
                                     alt="2017 Season"
                                   />
                                 </a>

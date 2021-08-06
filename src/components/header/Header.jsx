@@ -24,7 +24,7 @@ const Header = () => {
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
           <div className="logo">
            
-              <img src="/img/logo/new/wclogo.png" alt="partners brand" />
+              <img src="/wchs/img/logo/new/wclogo.png" alt="partners brand" />
               <h3 class="logoname">Westerville Central H.S. Boys Volleyball</h3>
          
           </div>
