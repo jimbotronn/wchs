@@ -14,7 +14,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  ib-themes
+                  Westerville Central Boys Volleyball
                 </a>
                 . All rights reserved.
               </p>
