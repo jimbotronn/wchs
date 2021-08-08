@@ -45,7 +45,7 @@ const Slider = () => {
             <a className="white-fill-bg btn-outline btn-medium " href="#about">Learn More
             <span className="overlay_effect"></span>
             </a>
-            <a className="white-fill-bg btn-outline btn-medium btn-gap" href="#donate">Sponsor
+            <a className="white-fill-bg btn-outline btn-medium btn-gap2" href="#donate">Sponsor
             <span className="overlay_effect"></span>
             </a>
             
