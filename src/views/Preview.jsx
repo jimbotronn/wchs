@@ -32,9 +32,13 @@ const Preview = () => {
                         className="shane_tm_full_link"
                       ></Link>
             </div>
-            <a href="/sponsor" className="white-fill-bg btn-outline btn-medium">
+            <div className="white-fill-bg btn-outline btn-medium">
               Become A Sponsor
-            </a>
+              <Link
+                        to={process.env.PUBLIC_URL + '/sponsor'}
+                        className="shane_tm_full_link"
+                      ></Link>
+            </div>
 
             </Reveal>
             
