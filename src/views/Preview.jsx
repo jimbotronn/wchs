@@ -25,10 +25,10 @@ const Preview = () => {
            <p>Westerville Central H.S. Boys Volleyball</p>
     
 
-           <a ref="/donate" className="white-fill-bg btn-outline btn-medium btn-twoselect">
-              Make A Donation
-                     
-            </a>
+           <Link
+                        to={'/donate'}
+                        className="white-fill-bg btn-outline btn-medium btn-twoselect"
+                      >  Make A Donation</Link>
               <Link
                         to={'/sponsor'}
                         className="white-fill-bg btn-outline btn-medium btn-twoselect"
