@@ -29,7 +29,13 @@ const Preview = () => {
               Make A Donation
                      
             </a>
-
+            <div className="btn-twoselect">
+              Become A Sponsor
+              <Link
+                        to={process.env.PUBLIC_URL + '/#/sponsor'}
+                        className="shane_tm_full_link white-fill-bg btn-outline btn-medium btn-twoselect"
+                      ></Link>
+            </div>
 
             </Reveal>
             
