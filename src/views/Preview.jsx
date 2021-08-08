@@ -29,13 +29,11 @@ const Preview = () => {
               Make A Donation
                      
             </a>
-            <div className="btn-twoselect">
-              Become A Sponsor
               <Link
                         to={'/sponsor'}
-                        className="shane_tm_full_link white-fill-bg btn-outline btn-medium btn-twoselect"
-                      ></Link>
-            </div>
+                        className="white-fill-bg btn-outline btn-medium btn-twoselect"
+                      >  Become A Sponsor</Link>
+
 
             </Reveal>
             
