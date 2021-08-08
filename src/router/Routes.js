@@ -1,4 +1,5 @@
 import React from "react";
+import Preview from "../views/Preview";
 import HomeTwo from "../views/all-home-version/HomeTwo";
 import HomeFour from "../views/all-home-version/HomeFour";
 import NotFound from "../views/NotFound";
@@ -9,8 +10,9 @@ const Routes = () => {
     <>
       <Router>
         <Switch>
-          <Route path="/home-two" component={HomeTwo} />
-           <Route path="/wchs" component={HomeFour} />
+        <Route exact path="/wchs" component={Preview} />
+          <Route path="/sponsor" component={HomeTwo} />
+           <Route path="/donate" component={HomeFour} />
           <Route component={NotFound} />
         </Switch>
       </Router>
