@@ -10,14 +10,14 @@ const Preview = () => {
           className="hero"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "/wchs/img/video/1.jpg"
+              process.env.PUBLIC_URL + "/img/video/1.jpg"
             })`,
           }}
         >
           <div className="content">
           <Reveal effect="fadeInUp">
            <img
-              src="/wchs/img/logo/new/wclogo.png"
+              src="/img/logo/new/wclogo.png"
                className="prev-logo"
               alt="logo"
             />
@@ -28,7 +28,7 @@ const Preview = () => {
            <div className="white-fill-bg btn-outline btn-medium">
               Make A Donation
               <Link
-                        to={process.env.PUBLIC_URL + '/donate'}
+                        to='/#/donate'
                         className="shane_tm_full_link"
                       ></Link>
             </div>
