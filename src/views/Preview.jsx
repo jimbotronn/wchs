@@ -25,9 +25,14 @@ const Preview = () => {
            <p>Westerville Central H.S. Boys Volleyball</p>
     
 
-           <a href="/wchs-donate" target="_blank" className="white-fill-bg btn-outline btn-medium">
+           <div className="white-fill-bg btn-outline btn-medium">
               Make A Donation
-            </a>
+              <Link
+                        to="wchs-donate"
+                        className="shane_tm_full_link"
+                        target="_blank"
+                      ></Link>
+            </div>
             <a href="/wchs/sponsor" className="white-fill-bg btn-outline btn-medium">
               Become A Sponsor
             </a>
