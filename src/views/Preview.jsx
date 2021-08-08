@@ -28,14 +28,14 @@ const Preview = () => {
            <div className="white-fill-bg btn-outline btn-medium">
               Make A Donation
               <Link
-                        to={process.env.PUBLIC_URL + '/donate'}
+                        to={process.env.PUBLIC_URL + '/#/donate'}
                         className="shane_tm_full_link"
                       ></Link>
             </div>
             <div className="white-fill-bg btn-outline btn-medium">
               Become A Sponsor
               <Link
-                        to={process.env.PUBLIC_URL + '/sponsor'}
+                        to={process.env.PUBLIC_URL + '/#/sponsor'}
                         className="shane_tm_full_link"
                       ></Link>
             </div>
