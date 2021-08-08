@@ -11,7 +11,7 @@ const Routes = () => {
       <Router>
         <Switch>
         <Route exact path='/' component={Preview} />
-          <Route path={process.env.PUBLIC_URL + '/#/sponsor'} component={HomeTwo} />
+          <Route path='/sponsor' component={HomeTwo} />
            <Route path='/donate' component={HomeFour} />
           <Route component={NotFound} />
         </Switch>
