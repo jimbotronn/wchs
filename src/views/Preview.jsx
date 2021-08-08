@@ -10,14 +10,14 @@ const Preview = () => {
           className="hero"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "/img/video/1.jpg"
+              process.env.PUBLIC_URL + "/wchs/img/video/1.jpg"
             })`,
           }}
         >
           <div className="content">
           <Reveal effect="fadeInUp">
            <img
-              src="/img/logo/new/wclogo.png"
+              src="/wchs/img/logo/new/wclogo.png"
                className="prev-logo"
               alt="logo"
             />
@@ -25,10 +25,10 @@ const Preview = () => {
            <p>Westerville Central H.S. Boys Volleyball</p>
     
 
-           <a href="/donate" target="_blank" className="white-fill-bg btn-outline btn-medium">
+           <a href="/wchs/donate" target="_blank" className="white-fill-bg btn-outline btn-medium">
               Make A Donation
             </a>
-            <a href="/sponsor" target="_blank" className="white-fill-bg btn-outline btn-medium">
+            <a href="/wchs/sponsor" target="_blank" className="white-fill-bg btn-outline btn-medium">
               Become A Sponsor
             </a>
 
