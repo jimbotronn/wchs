@@ -15,7 +15,7 @@ const Preview = () => {
           }}
         >
           <div className="content">
-          <Reveal effect="fadeInUp">
+  
            <img
               src="/wchs/img/logo/new/wclogo.png"
                className="prev-logo"
@@ -23,8 +23,8 @@ const Preview = () => {
             />
 
            <p>Westerville Central H.S. Boys Volleyball</p>
-    
-
+         
+           <Reveal effect="fadeInUp">
            <Link
                         to={'/donate'}
                         className="white-fill-bg btn-outline btn-medium btn-twoselect"
@@ -33,9 +33,9 @@ const Preview = () => {
                         to={'/sponsor'}
                         className="white-fill-bg btn-outline btn-medium btn-twoselect"
                       >  Become A Sponsor</Link>
+  </Reveal>
 
 
-            </Reveal>
             
             {/* End purchase_button */}
           </div>
