@@ -28,7 +28,7 @@ const Preview = () => {
            <div className="white-fill-bg btn-outline btn-medium">
               Make A Donation
               <Link
-                        to='/#/donate'
+                        to='/donate'
                         className="shane_tm_full_link"
                       ></Link>
             </div>
