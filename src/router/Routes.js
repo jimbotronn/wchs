@@ -11,8 +11,8 @@ const Routes = () => {
       <Router>
         <Switch>
         <Route exact path='/wchs' component={Preview} />
-          <Route path={process.env.PUBLIC_URL + '/#/sponsor'} component={HomeTwo} />
-           <Route path={process.env.PUBLIC_URL + '/#/donate'} component={HomeFour} />
+          <Route path={process.env.PUBLIC_URL + '/sponsor'} component={HomeTwo} />
+           <Route path='/donate' component={HomeFour} />
           <Route component={NotFound} />
         </Switch>
       </Router>
