@@ -4092,7 +4092,10 @@ div#generic_price_table {
 
 .ReactModal__Content.ReactModal__Content--after-open.custom-modal {
   width: 80%;
- 
+  @media screen and (max-width: 1024px) {
+    overflow-y: auto;
+    height:100vh;
+   }
 }
 .custom-modal {
  

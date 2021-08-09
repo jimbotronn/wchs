@@ -210,7 +210,7 @@ const SkillsTwo = () => {
                          our growth and success for years to come, creating the opportunity for 
                          more student-athletes to discover their potential in boys volleyball  </p><br></br>
 						 <h3 className="white-fill-bg btn-outline btn-medium" onClick={toggleModalTwo}>
-                  Sponsor Packages
+                  Sponsor Package Details
                     </h3>
                   </div>
                 </div>
