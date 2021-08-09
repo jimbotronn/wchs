@@ -37,7 +37,7 @@ const Header = () => {
               offset={-200}
             >
 
-              <a className="white-fill-bg btn-outline btn_sm btn_gap2" href="#donate">Sponsor
+              <a className="white-fill-bg btn-outline btn_sm btn_gap2" href="#donate">Sponsor Us
             </a>
             </Scrollspy>
           </div>
@@ -82,7 +82,7 @@ const Header = () => {
             </span>
             <div className="dropdown_inner">
               <ul className="anchor_nav">
-              <a className="white-fill-bg btn-outline btn_sm btn_gap2" href="#donate">Sponsor
+              <a className="white-fill-bg btn-outline btn_sm btn_gap2" href="#donate">Sponsor Us
             </a>
  
               </ul>
