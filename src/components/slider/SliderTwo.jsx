@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -42,12 +42,14 @@ const Slider = () => {
 
             </div>
             {/* End designation */} 
-            <a className="white-fill-bg btn-outline btn-medium " href="#about">Learn More
+            <HashLink className="white-fill-bg btn-outline btn-medium " smooth to="/donate#about">
+            Learn More
             <span className="overlay_effect"></span>
-            </a>
-            <a className="white-fill-bg btn-outline btn-medium btn-gap2" href="#donate">Sponsor
+</HashLink>;
+<HashLink className="white-fill-bg btn-outline btn-medium btn-gap2" smooth to="/donate#donate">
+            Sponsor
             <span className="overlay_effect"></span>
-            </a>
+</HashLink>;
             
             
           </div>
