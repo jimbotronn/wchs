@@ -3,7 +3,7 @@ import Preview from "../views/Preview";
 import HomeTwo from "../views/all-home-version/HomeTwo";
 import HomeFour from "../views/all-home-version/HomeFour";
 import NotFound from "../views/NotFound";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Routes = () => {
   return (
