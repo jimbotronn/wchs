@@ -17,7 +17,9 @@ const Preview = () => {
           <div className="content">
   
            <img
-              src="/wchs/img/logo/new/wclogo.png"
+              src={
+                process.env.PUBLIC_URL + "/wchs/img/logo/new/wclogo.png"
+              }
                className="prev-logo"
               alt="logo"
             />
