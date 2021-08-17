@@ -19,12 +19,12 @@ const About = () => {
                 </div>
                 <div class="mcc_section">
                   <div className="text mission">
-                  <h3><FaVolleyballBall/> Mission </h3>
+                  <h3><FaVolleyballBall/> What We Do </h3>
                         <p>
-                        Westerville Central Boys Volleyball program provide the oppotunity for 
-                        high school boys to discover their potential through volleyball and guide  
+                        Westerville Central Boys Volleyball program provides the opportunity  for 
+                        high school boys to discover their potential through volleyball.  The program guides  
                         them to excel in teamwork, sportsmanship, self-discipline, and moral character. <br></br><br></br>
-                        For some, competitive volleyball has created new opportunity to pursue higher education.     
+                        For some, competitive volleyball has created new opportunities to pursue higher education.     
  
                         </p>
                    </div>
@@ -34,8 +34,8 @@ const About = () => {
                         Boys Volleyball is a club sport in Westerville School District.  The school supports 
                         us by letting us use its equipment and facility for practices and competition.  The 
                         families of the players are responsible for funding 100% of the expenses.  <br></br><br></br>
-                         Most recently, the team is expected to purchase and maintain its own equipment.
-                        Making an already tough financial situation tougher.  
+                        Most recently, the team is expected to purchase and maintain its equipment. 
+                        It is making an already challenging financial situation tougher.
                         </p>  
                       
                    </div>

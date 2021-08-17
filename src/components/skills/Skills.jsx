@@ -211,7 +211,10 @@ const SkillsTwo = () => {
                          more student-athletes to discover their potential in boys volleyball  </p><br></br>
 						 <h3 className="white-fill-bg btn-outline btn-medium" onClick={toggleModalTwo}>
                   Sponsor Package Details
-                    </h3>
+                    </h3><br></br><br></br><br></br><br></br>
+					<a href="mailto:warhawksmvb@gmail.com" className="white-fill-bg btn-outline btn-medium" >
+                         Contact Us
+                    </a>
                   </div>
                 </div>
               </div>

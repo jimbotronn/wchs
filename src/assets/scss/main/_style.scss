@@ -1912,15 +1912,16 @@ body.modal {
   }
   &.fill-black {
     &:hover {
-      background-color: #fff;
-      color: #000;
+      background-color: #25b79f;
+      color: #fff;
+      border-color:#25b79f !important;
     }
   }
   &.btn-outline {
     &:hover {
-      background: #fff !important;
-      color: #000 !important;
-      border-color: #fff !important;
+      background: #25b79f !important;
+      color: #fff !important;
+      border-color: #25b79f !important;
     }
   }
 }
@@ -4080,6 +4081,9 @@ div#generic_price_table {
 
 .row {
     display: flex;
+    @media screen and (max-width: 812px) {
+      display: block;
+     }
 }
 
 .col-md-4 {flex: 30 0 0;}
@@ -4092,7 +4096,7 @@ div#generic_price_table {
 
 .ReactModal__Content.ReactModal__Content--after-open.custom-modal {
   width: 80%;
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 812px) {
     overflow-y: auto;
     height:100vh;
    }

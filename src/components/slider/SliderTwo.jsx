@@ -45,11 +45,11 @@ const Slider = () => {
             <HashLink className="white-fill-bg btn-outline btn-medium " smooth to="/donate#about">
             Learn More
             <span className="overlay_effect"></span>
-</HashLink>;
+</HashLink>
 <HashLink className="white-fill-bg btn-outline btn-medium btn-gap2" smooth to="/donate#donate">
             Sponsor Us
             <span className="overlay_effect"></span>
-</HashLink>;
+</HashLink>
             
             
           </div>

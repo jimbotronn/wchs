@@ -5,7 +5,6 @@ import About from "../../components/about/About";
 import Portfolio from "../../components/portfolio/PortfolioTwo";
 import Skills from "../../components/skills/SkillsTwo";
 import Brand from "../../components/Brand";
-import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
 
 

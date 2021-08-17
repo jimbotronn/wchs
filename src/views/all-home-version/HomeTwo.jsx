@@ -6,7 +6,7 @@ import Portfolio from "../../components/portfolio/PortfolioTwo";
 import Skills from "../../components/skills/Skills";
 import Brand from "../../components/Brand";
 import Footer from "../../components/footer/Footer";
-import Reveal from "react-reveal/Reveal";
+
 
 const HomeTwo = () => {
   return (
