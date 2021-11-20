@@ -29,10 +29,10 @@ const Preview = () => {
                         to={'/donate'}
                         className="white-fill-bg btn-outline btn-medium btn-twoselect"
                       >  Make A Donation</Link>
-              <Link
-                        to={'/sponsor'}
+              <a
+                        href='https://sponsor.wcvolleyball.com/'
                         className="white-fill-bg btn-outline btn-medium btn-twoselect"
-                      >  Become A Sponsor</Link>
+                      >  Become A Sponsor</a>
   </Reveal>
 
 

@@ -6,6 +6,9 @@ import Portfolio from "../../components/portfolio/PortfolioTwo";
 import Skills from "../../components/skills/Skills";
 import Brand from "../../components/Brand";
 import Footer from "../../components/footer/Footer";
+import Testimonial from "../../components/testimonial/TestimonialTwo";
+import Reveal from "react-reveal/Reveal";
+
 
 
 const HomeTwo = () => {
@@ -36,7 +39,27 @@ const HomeTwo = () => {
         </div>
       </div>
 
-      
+      <div className="shane_tm_section">
+        <div className="shane_tm_testimonials">
+          <div className="container">
+            <div className="testimonials_inner">
+              <Reveal effect="fadeInRight">
+                <div className="left">
+                  <div className="shane_tm_title">
+                    <br></br>
+                    <h3>Proud Supporters of Our Team</h3>
+                  </div>
+                </div>
+              </Reveal>
+              <Reveal effect="fadeInRight">
+                <div className="right">
+                  <Testimonial />
+                </div>
+              </Reveal>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <Skills />
 

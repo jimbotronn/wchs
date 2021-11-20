@@ -1413,11 +1413,12 @@ ul.react-tabs__tab-list {
 
 .shane_tm_testimonials {
   width: 100%;
+ 
   height: auto;
   clear: both;
   float: left;
   background-color: #f9f9f9;
-  padding: 150px 0px;
+  padding: 30px 0px;
   @media screen and (max-width: 992px) {
     padding: 60px 0px;
   }
@@ -1430,11 +1431,11 @@ ul.react-tabs__tab-list {
   justify-content: space-between;
 }
 .shane_tm_testimonials .left {
-  width: 50%;
-  padding-right: 50px;
+  width: 45%;
+  padding-right: 20px;
 }
 .shane_tm_testimonials .right {
-  width: 50%;
+  width: 55%;
   padding-left: 50px;
 }
 .shane_tm_testimonials .right ul {
@@ -1455,9 +1456,12 @@ ul.react-tabs__tab-list {
   align-items: center;
 }
 .shane_tm_testimonials .right .author .image {
-  width: 65px;
-  height: 65px;
-  border-radius: 100%;
+  width: 100%;
+  max-height:500px; 
+  max-widht:500px;
+  border-radius:0px;
+  min-height:200px;
+  border-radius: 0;
   position: relative;
   overflow: hidden;
 }
@@ -1468,9 +1472,9 @@ ul.react-tabs__tab-list {
   left: -4px;
   right: -4px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: initial;
   background-position: center;
-  border-radius: 100%;
+  border-radius: 0;
   opacity: 0;
 
   -webkit-transition: all 1s ease;
@@ -4109,4 +4113,8 @@ div#generic_price_table {
 
 .col-md-12 {
   width: 100%;
+}
+
+a.giftlink {
+  color: #ff4040;
 }

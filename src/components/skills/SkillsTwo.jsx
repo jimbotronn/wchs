@@ -34,7 +34,11 @@ const SkillsTwo = () => {
                          All transactions are secured and processed through Givebutter's partnership 
                          with Stripe.</p><br></br><p>
                          As always, your donations are tax deductible.  Upon completing the donation 
-                         transaction, you will receive an automatic receipt. </p><br></br><br></br>   
+                         transaction, you will receive an automatic receipt. </p><br></br>
+                         <p>
+                         Many employers offer Matching Gift program, which match any charitable contributions made by their employees.
+                         You can use this <a className="giftlink" href="https://ww2.matchinggifts.com/search/rit">link</a> to find out if your company has a matching gift policy.   
+                         </p><br></br><br></br>   
                          <a href="mailto:warhawksmvb@gmail.com" className="white-fill-bg btn-outline btn-medium" >
                          Contact Us
                     </a>
@@ -46,7 +50,7 @@ const SkillsTwo = () => {
                   <div className="portfolio_list left dl_left">
               
                       <Reveal effect="fadeInLeft">
-                        <Iframe url="https://givebutter.com/embed/c/wchsbvbIIU"
+                        <Iframe url="https://givebutter.com/embed/c/wcvolleyballdonate"
                           width="100%"
                           height="615px"
                           style="max-width: 601px;"
